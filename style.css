@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,300;0,700;0,900;1,100&display=swap');
 
 
+/* first div*/
+
 .header {
     display: flex;
     justify-content: space-around;
 }
 
 .boton {
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
     background-color: 	#3883F6;
     color: white;
@@ -24,31 +26,12 @@
     padding: 10px;
 }
 
-.container-2 {
-    background-color: #E5E7EB;
-}
-
 .container-1a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    max-width: 900px;
-    flex-wrap: wrap;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    max-width: 330px;
 }
 
 .principal-image {
@@ -90,11 +73,113 @@ a {
     margin-bottom: 10px;
 }
 
+/*   div 2  */
+
+.images {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container-2 {
+    background-color: #E5E7EB;
+    height: 900px;
+}
+
+/*  div 3  */
+
+.container-3 {
+    display: flex;
+    background-color: #3883F6;
+    margin: 50px;
+}
+
+.signupdescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    width: 900px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin: 70px auto 10px auto;
+}
+
+.subquote {
+    display: flex;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.boton2 {
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
+    background-color: 	#3883F6;
+    color: white;
+    border-style: none;
+    font-weight: 900;
+    font-size: 18px;
+    max-width: 150px;
+    margin-top: 15px;
+    border: 2px solid #FAF9F8;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+}
+
+.p2 {
+    color: #1F2937;
+    font-size: 18px;
+}
+
 .h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 50px;
+    text-align: center;
 }
+
+/*  div 4 footer  */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.p3 {
+    color: #E5E7EB;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
