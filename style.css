@@ -73,7 +73,11 @@ a {
     margin-bottom: 10px;
 }
 
+
+
 /*   div 2  */
+
+
 
 .images {
     display: flex;
@@ -84,14 +88,57 @@ a {
     margin-right: auto;
 }
 
-
+.imagen {
+    border: 3px solid #3883F6;
+    border-radius: 8px;
+}
 
 .container-2 {
     background-color: #E5E7EB;
     height: 900px;
 }
 
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 70px auto 10px auto;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    
+}
+
+.subquote {
+    display: flex;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.p2 {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+    text-align: center;
+}
+
+
 /*  div 3  */
+
+
+
 
 .container-3 {
     display: flex;
@@ -104,26 +151,6 @@ a {
     flex-direction: column;
 }
 
-.quotecontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quote {
-    width: 900px;
-    color: #1F2937;
-    font-style: italic;
-    font-size: 36px;
-    margin: 70px auto 10px auto;
-}
-
-.subquote {
-    display: flex;
-    color: #1F2937;
-    font-size: 30px;
-    font-weight: 700;
-}
 
 .boton2 {
     padding: 5px 10px 5px 10px ;
@@ -144,20 +171,13 @@ a {
     max-width: 330px;
 }
 
-.p2 {
-    color: #1F2937;
-    font-size: 18px;
-}
 
-.h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-    margin: 50px;
-    text-align: center;
-}
+
+
 
 /*  div 4 footer  */
+
+
 
 .footer {
     display: flex;
