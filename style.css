@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,300;0,700;0,900;1,100&display=swap');
 
+body {
+    padding: 0;
+    margin: 0;
+}
 
-/* first div*/
+
+/* first section*/
 
 .header {
     display: flex;
@@ -75,7 +80,7 @@ a {
 
 
 
-/*   div 2  */
+/*   section 2  */
 
 
 
@@ -86,6 +91,7 @@ a {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 50px;
 }
 
 .imagen {
@@ -93,33 +99,7 @@ a {
     border-radius: 8px;
 }
 
-.container-2 {
-    background-color: #E5E7EB;
-    height: 900px;
-}
 
-.quotecontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 900px;
-    margin: 70px auto 10px auto;
-}
-
-.quote {
-    color: #1F2937;
-    font-style: italic;
-    font-size: 36px;
-    
-}
-
-.subquote {
-    display: flex;
-    color: #1F2937;
-    font-size: 30px;
-    font-weight: 700;
-    align-self: flex-end;
-}
 
 .p2 {
     color: #1F2937;
@@ -130,12 +110,44 @@ a {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 50px;
+    padding: 30px;
     text-align: center;
 }
 
+/*  section 3  */
 
-/*  div 3  */
+.container-4 {
+    background-color: #E5E7EB;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 70px auto 10px auto;
+    padding: 50px 0;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    min-width: 0px;
+}
+
+.subquote {
+    display: flex;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+
+
+
+/*  section 4  */
 
 
 
@@ -143,12 +155,16 @@ a {
 .container-3 {
     display: flex;
     background-color: #3883F6;
-    margin: 50px;
+    margin: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .signupdescription {
     display: flex;
     flex-direction: column;
+    padding: 40px 0;
 }
 
 
@@ -161,7 +177,6 @@ a {
     font-weight: 900;
     font-size: 18px;
     max-width: 150px;
-    margin-top: 15px;
     border: 2px solid #FAF9F8;
 }
 
@@ -171,11 +186,13 @@ a {
     max-width: 330px;
 }
 
+.h3 {
+    color: #FAF9F8;
+    font-size: 24px;
+    font-weight: 700;
+}
 
-
-
-
-/*  div 4 footer  */
+/*  footer  */
 
 
 
